@@ -1,0 +1,89 @@
+body { 
+  margin: 0%; 
+  position: relative; 
+  background-image: url(./img/mainFondo.png); 
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 100vh; /* CORREGIDO: De 1000vh a 100vh para evitar scroll infinito */
+  background-repeat: no-repeat; 
+} 
+
+
+.main-nav{
+  overflow: hidden;
+ background-color: #1e339b;
+ margin-inline-end: 300px;
+ border-end-end-radius: 50px;
+
+}
+
+.main-nav a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+float: left;
+color: aliceblue;
+text-align: center;
+padding: 30px 60px;
+text-decoration: none; /*underline*/
+cursor: pointer;
+text-decoration: underline rgb(254, 153, 12)  5px;
+font-size: 27px;
+}
+
+.main-nav a:hover{
+  background-color: aliceblue;
+  color: #1e339b;
+}
+
+
+
+
+.row { 
+  margin: 8px -16px; 
+  display: flex; 
+  flex-direction: row; 
+  gap: 60px; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 150px; 
+} 
+
+.column img { 
+  max-width: 400px; 
+  max-height: 400px; 
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+h4 { 
+  padding-top: 3px; 
+  text-align: center; 
+} 
+
+.content { 
+  background-color: rgb(54, 88, 225); 
+  padding: 6px; 
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  border-radius: 5px;
+} 
+
+.desc-box { 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: x-large; 
+  text-align: start; 
+  margin-top: 190px; 
+  margin-left: 270px;
+  color: rgb(239, 239, 243); 
+  padding: 54px 68px; 
+  border: 7px solid rgb(60, 28, 239); 
+  background-color: rgb(70, 60, 255); 
+  width: 850px; 
+  min-height: 80px;
+}
+

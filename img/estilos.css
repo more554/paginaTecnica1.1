@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    background-image: url(./salamone.png);
+
+    background-size: auto;;
+    background-position: center ;
+
+    background-repeat: no-repeat;
+
+    /*backgorund se queda estatico aunque se scrolee la pagina*/
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.nav-links{
+
+    position: relative;
+    display:grid;
+    row-gap: 50px;
+    font-size: 40px;
+    top:120px;
+    right: 50px;
+    
+
+
+
+}
+
