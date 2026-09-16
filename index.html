@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRECEPTORES |E.E.S.T N1</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fuentes online via google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   
+
+
+<!--<div class="logo">
+     <img src="./icon.png" height="200px" width="200px" alt="logo escuela">
+</div>-->
+  
+
+    <header class="header">    <!-- top header == nav -->        
+        <nav class="navigation">
+            <a href="#home">INICIO</a>
+            <a href="#inicio" class="inactive">BIENVENIDA</a>
+            <a href="#alumnos">ALUMNOS</a>
+            <a href="#profesores">PROFESORES</a>
+            <a href="#asistencia">ASISTENCIA</a>
+            <a href="#comunicados">COMUNICADOS</a>
+        </nav>
+    </header>
+
+
+    <!--contenido principal-->
+    <main>
+
+        <!-- contenido visual princiapl (hero) -->
+
+        <div class="logo">
+            <img src="./icon.png">
+            </div>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+            <!--  <span class="section-number">01 / PORTAL</span>-->
+                <h1>
+                     VISTA
+                    <span>PRECEPTOR</span>
+                </h1>
+                <p>
+                    Sistema de gestión y seguimiento
+                    de alumnos y profesores.
+                </p>
+
+                <div class="hero-buttons"><!--botones de incio llevan a cada seccion
+                    alumnos o profesores -->
+                    <a href="#alumnos" class="btn btn-primary">
+                        VER ALUMNOS
+                    </a>
+                    <a href="#profesores" class="btn btn-outline">
+                        VER PROFESORES
+                    </a>
+                </div>
+            </div>
+        </section><!--cierra el section del hero-->
+        
+        <!-- seccion de alumnos 
+         encarga de enviar a dos sub paginas ciclo basico y ciclo superior 
+         consulta de informacion de cada alumno se puede cargar alumno,borrar alumno
+         estdo del alumno curso dni quien los puede retirar -->
+        <section class="management-section" id="alumnos">
+
+            <div class="section-heading">
+               
+                <h2>ALUMNOS</h2><p class="desc-al">(consulte informacion del alumnado)</p>
+
+
+                   <div class="row">
+        <div class="column">
+            <div class="content banner-btn">
+                <a href="./asistencia.html">
+                    <img src="./basico.png" alt="planilla de asistencia">
+                    <h4>CICLO BASICO</h4>
+                </a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content banner-btn">
+                <a href="./docentes.html">
+                    <img src="./superior.png" alt="listado de profesores">
+                    <h4>CICLO SUPERIOR</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+ </div>
+        </section>
+
+
+      
+  
+    <!-- foooter -->
+    <footer>
+
+        <div class="footer-logo">
+            <strong>ESCUELA TÉCNICA MONTE HERMOSO </strong>
+            <span>PRECEPTORIA</span>
+        </div>
+
+        <p>
+            PAGINA CREADA POR LOS ALUMNOS DE 6TO PROG. 2026
+        </p>
+
+        <span class="copyright">
+            © 2026 E.E.S.T N1 
+        </span>
+
+    </footer>
+
+</body>
+</html>
